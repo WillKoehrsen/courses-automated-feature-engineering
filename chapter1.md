@@ -23,17 +23,24 @@ This is an example exercise.
 
 `@pre_exercise_code`
 ```{python}
+import pandas as pd
 
+pd.options.display.max_columns = 10
+
+import matplotlib.pyplot as plt
 ```
 
 `@sample_code`
 ```{python}
-
+data = pd.read_csv('http://assets.datacamp.com/production/repositories/3871/datasets/032c54f464befcb66f0243ca2e00c24f8cd58221/online-retail_sample.csv',
+                   parse_dates = ['order_date'])				
 ```
 
 `@solution`
 ```{python}
+data.head()
 
+data.describe()
 ```
 
 `@sct`
