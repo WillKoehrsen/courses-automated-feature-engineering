@@ -1,4 +1,4 @@
 title: Automated Feature Engineering
-description: Course description goes here.
+description: How to use Featuretools for automatically creating features.
 programming_language: python
 from: python-base-prod:v1.0.2
