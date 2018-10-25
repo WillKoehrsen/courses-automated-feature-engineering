@@ -3,7 +3,7 @@ title: 'Chapter Title Here'
 description: 'Chapter description goes here.'
 ---
 
-## Example coding exercise
+## Inspecting Data
 
 ```yaml
 type: NormalExercise
@@ -41,6 +41,120 @@ data = pd.read_csv('http://assets.datacamp.com/production/repositories/3871/data
 data.head()
 
 data.describe()
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## Inspecting Labels
+
+```yaml
+type: NormalExercise
+key: 3a62aa3b37
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
+
+---
+
+## Make Features
+
+```yaml
+type: TabExercise
+key: 0423fb96d3
+xp: 100
+```
+
+
+
+`@pre_exercise_code`
+```{python}
+import pandas as pd
+pd.options.display.max_columns = 10
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 62c634b56a
+xp: 50
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{python}
+
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: b6a490e9da
+xp: 50
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{python}
+
+```
+
+`@solution`
+```{python}
+
 ```
 
 `@sct`
